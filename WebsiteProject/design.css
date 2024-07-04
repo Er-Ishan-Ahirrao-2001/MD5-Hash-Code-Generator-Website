@@ -1,0 +1,72 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+
+body {
+    background: url(back1.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+
+p{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+input{
+    color: white;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    border-top:2px white;
+}
+
+.file{
+    /* border:2px solid white; */
+    position:absolute;
+    top:30%;
+    left:8%;
+    
+}
+
+.file input::file-selector-button{
+    cursor:pointer;
+    color: black;
+    outline: none;
+    font-size: 15px;
+    border-top:2px white;
+}
+
+.text{
+    /* border:2px solid white; */
+    position:absolute;
+    top:30%;
+    left:61%;
+}
+
+h1{
+    position:absolute;
+    top:10%;
+    left:26%;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.file button{
+    cursor:pointer;
+}
+
+.text button{
+    cursor:pointer;
+}

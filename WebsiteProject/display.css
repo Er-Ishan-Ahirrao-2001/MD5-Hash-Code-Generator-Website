@@ -1,0 +1,11 @@
+.data h1{
+    position:absolute;
+    top:60%;
+    left:38%;
+}
+
+.data p{
+    position:absolute;
+    top:70%;
+    left:0%;
+}
